@@ -111,26 +111,73 @@
             </form>
             </div>
 
-             <div class="card-body bg-light shadow rounded p-4">
+             <div class="card-body bg-light shadow rounded p-4 mt-4">
             <h3><strong>-Portfolio Information 1-</strong></h3>
              <form id="profile-form ">
+                        <!--ผู้ใช้กรอกชื่อผลงานที่1-->
                         <label class="form-label" for="Title1">Title</label>
                         <input class="form-control mb-3" id="Title1" required maxlength="30" placeholder="e.g. Made a Web-Shooter">
-
+                        <!--ผู้ใช้กรอกประเภทของผลงานที่1-->
                         <label class="form-label" for=" Type1">Type</label>
                         <input class="form-control mb-3" id="Type1" placeholder="e.g. Activity">
-
+                        <!--ผู้ใช้กรอกวันที่ของผลงานที่1-->
                         <label for="datepicker1" class="form-label">Date</label>
                         <input type="date" class="form-control w-12" id="Date1" data-bs-toggle="Date1" autocomplete="off" placeholder="Choose Date">
-
-                        <label class="form-label" for="Tried">What I've Tried</label>
-                        <input class="form-control mb-3" id="Tried" placeholder="e.g. Tried to save May and MJ">
-
-                        <input class="form-control mb-3" id="Curious" placeholder="e.g. Spider-Gene and Bio-web ">
-
-                        <p class="form-error small mb-2" id="profile-error" role="alert"></p>
+                        <!--ผู้ใช้แนบรูปของผลงานที่1-->
+                        <label class="form-label" for="Pic1">Picture For Portfolio 1</label>
+                        <input type="file" class="form-control mb-3" name="Pic1" id="Pic1">
+                        <!--ผู้ใช้กรอกบทบาทของตนในผลงานที่1-->
+                        <label class="form-label" for="Rol1">Role</label>
+                        <input class="form-control mb-3" id="Rol1" placeholder="e.g. Project Leader">
+                        <!--ผู้ใช้กรอกคำอธิบายของผลงานที่1-->
+                        <label class="form-label" for="Des1">Description</label>
+                        <input class="form-control mb-3" id="Des1">
+                        <!--ผู้ใช้กรอกทักษะที่ตนใช้ในผลงานที่1-->
+                        <label class="form-label" for="Skill1">Skills</label>
+                        <input class="form-control mb-3" id="Skill1" placeholder="e.g. Thinking , Problem Solving , Teamwork">
+                        <!--ผู้ใช้แนบลิงค์เพิ่มเติมสำหรับผลงานที่1-->
+                        <label class="form-label" for="Envid1">Envidence</label>
+                        <input class="form-control mb-3" id="Envid1" placeholder="e.g. https://www.spider-man.com">
+                        <!--กดส่ง หรือล้าง ฟอร์มผลงานที่1-->
+                        <p class="form-error small mb-2" id="Port1-error" role="alert"></p>
                         <div class="d-flex gap-2">
-                            <button class="btn btn-success flex-grow-1" type="submit">Submit Profile Data</button>
+                            <button class="btn btn-success flex-grow-1" type="submit">Submit Portfolio 1</button>
+                            <button class="btn btn-outline-light" type="reset">Clear</button>
+                        </div>
+            </form>
+            </div>
+
+            <div class="card-body bg-light shadow rounded p-4 mt-4">
+            <h3><strong>-Portfolio Information 2-</strong></h3>
+             <form id="profile-form ">
+                        <!--ผู้ใช้กรอกชื่อผลงานที่2-->
+                        <label class="form-label" for="Title2">Title</label>
+                        <input class="form-control mb-3" id="Title2" required maxlength="30" placeholder="e.g. Made a Web-Shooter">
+                        <!--ผู้ใช้กรอกประเภทของผลงานที่2-->
+                        <label class="form-label" for=" Type2">Type</label>
+                        <input class="form-control mb-3" id="Type2" placeholder="e.g. Activity">
+                        <!--ผู้ใช้กรอกวันที่ของผลงานที่2-->
+                        <label for="datepicker2" class="form-label">Date</label>
+                        <input type="date" class="form-control w-12" id="Date2" data-bs-toggle="Date2" autocomplete="off" placeholder="Choose Date">
+                        <!--ผู้ใช้แนบรูปของผลงานที่2-->
+                        <label class="form-label" for="Pic2">Picture For Portfolio 2</label>
+                        <input type="file" class="form-control mb-3" name="Pic2" id="Pic2">
+                        <!--ผู้ใช้กรอกบทบาทของตนในผลงานที่2-->
+                        <label class="form-label" for="Rol2">Role</label>
+                        <input class="form-control mb-3" id="Rol2" placeholder="e.g. Project Leader">
+                        <!--ผู้ใช้กรอกคำอธิบายของผลงานที่2-->
+                        <label class="form-label" for="Des2">Description</label>
+                        <input class="form-control mb-3" id="Des2">
+                        <!--ผู้ใช้กรอกทักษะที่ตนใช้ในผลงานที่2-->
+                        <label class="form-label" for="Skill2">Skills</label>
+                        <input class="form-control mb-3" id="Skill2" placeholder="e.g. Thinking , Problem Solving , Teamwork">
+                        <!--ผู้ใช้แนบลิงค์เพิ่มเติมสำหรับผลงานที่2-->
+                        <label class="form-label" for="Envid2">Envidence</label>
+                        <input class="form-control mb-3" id="Envid2" placeholder="e.g. https://www.spider-man.com">
+                        <!--กดส่ง หรือล้าง ฟอร์มผลงานที่2-->
+                        <p class="form-error small mb-2" id="Port2-error" role="alert"></p>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-success flex-grow-1" type="submit">Submit Portfolio 2</button>
                             <button class="btn btn-outline-light" type="reset">Clear</button>
                         </div>
             </form>
